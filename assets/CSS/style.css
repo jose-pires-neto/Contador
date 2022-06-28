@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 15%;
+
+  font-family: 'Koulen', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+
+  background: linear-gradient(-45deg, #b3e8e5, #82dbd8, #3bacb6, #2f8f9d);
+  background-size: 100% 200%;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(89, 170, 107);
+  background-color: rgb(241, 214, 214);
+  color: lightcoral;
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
+
+  border-radius: 113px;
+  background: linear-gradient(145deg, #57cc99, #80ed99);
+  box-shadow: 2px 2px 3px #2a8f2c, -2px -2px 3px #9effa0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: lightgray;
+  color: #bbb;
+  border: 1px solid #bbb;
+}
+
+#counter {
+  display: flex;
+}
+
+#currentNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 16pt;
+}
